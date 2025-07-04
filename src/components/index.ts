@@ -1,0 +1,33 @@
+// export { default as AccountRecovery } from './account-recovery/account-recovery';
+export { default as AdminCourseCard } from './admin-course-card/admin-course-card';
+export { default as AdminInstructorTable } from './admin-instructor-table/admin-instructor-table';
+export { default as AllCoursesCard } from './all-courses-card/all-courses-card';
+export { default as BooksModal } from './books-modal/books-modal';
+export { default as Categories } from './categories/categories';
+export { default as CheckoutForm } from './checkout-form/checkout-form';
+export { default as Curriculum } from './curriculum/curriculum';
+export { default as DraftCourseCard } from './draft-course-card/draft-course-card';
+export { default as ErrorAlert } from './error-alert/error-alert';
+export { default as Hero } from './hero/hero';
+export { default as HowItWorks } from './how-it-works/how-it-works';
+export { default as InstructorCoursesCard } from './instructor-courses-card/instructor-courses-card';
+export { default as InstructorEditCourseCard } from './instructor-courses-card/instructor-edit-course-card';
+export { default as InstructorManageCourse } from './instructor-manage-course/instructor-manage-course';
+export { default as Instructors } from './instructors/instructors';
+export { default as Login } from './login/login';
+export { default as Mentor } from './mentor/mentor';
+export { default as Newsletter } from './newsletter/newsletter';
+export { default as Overview } from './overview/overview';
+export { default as PopularCourses } from './popular-courses/popular-courses';
+export { default as Pricing } from './pricing/pricing';
+export { default as Register } from './register/register';
+export { default as Review } from './reivew/review';
+export { default as SectionAccordion } from './section-accordion/section-accordion';
+export { default as SectionForm } from './section-form/section-form';
+export { default as SocialMedia } from './social-media/social-media';
+export { default as Sposorship } from './sposorship/sposorship';
+export { default as StatsCard } from './stats-card/stats-card';
+export { default as Testimonials } from './testimonials/testimonials';
+// export { default as Verification } from './verification/verification';
+export {default as AdminStudentTable} from './admin-instructor-table/admin-student-table'
+export { default as AdminCourseCardInput } from './admin-course-card-push/admin-course-card-push'
