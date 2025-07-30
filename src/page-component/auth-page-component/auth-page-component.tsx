@@ -43,10 +43,7 @@ const AuthPageComponent = () => {
 				return <Login onNavigateStateComponent={onNavigateStateComponent} />;
 			case 'register':
 				return <Register onNavigateStateComponent={onNavigateStateComponent} />;
-			// case 'verification':
-			// 	return <Verification />;
-			// case 'account-recovery':
-			// 	return <AccountRecovery onNavigateStateComponent={onNavigateStateComponent} />;
+		
 		}
 	};
 
