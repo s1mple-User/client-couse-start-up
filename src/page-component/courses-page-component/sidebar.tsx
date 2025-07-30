@@ -16,7 +16,6 @@ import {
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import { ChangeEvent, FC, useEffect, useState } from 'react';
-import { GoPrimitiveDot } from 'react-icons/go';
 import $axios from 'src/api/axios';
 import { getLessonUrl } from 'src/config/api.config';
 import { getLessonTime } from 'src/helpers/time.helper';
@@ -122,7 +121,7 @@ const Sidebar: FC<CourseDashboardProps> = ({ ...props }) => {
 				<>
 					<Heading fontSize={'2xl'}>Kurs bo'limlari</Heading>
 					<Flex align={'center'} gap={2} mt={3}>
-						{sections.length}ta Bo'lim <Icon as={GoPrimitiveDot} />{' '}
+						{sections.length}ta Bo'lim 
 						{sections
 							.map(c => c.lessons.length)
 							.reduce((a, b) => +a + +b, 0)}

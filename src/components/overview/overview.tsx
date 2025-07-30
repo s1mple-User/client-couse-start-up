@@ -8,7 +8,6 @@ import {
 } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import { BsCheck } from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
 import { useTypedSelector } from 'src/hooks/useTypedSelector';
 
 const Overview = () => {
@@ -51,7 +50,7 @@ const Overview = () => {
 			<Box mt={3}>
 				{course?.requirements.map((text, idx) => (
 					<Flex key={idx} gap={2} align={'center'}>
-						<Icon as={GoPrimitiveDot} w={5} h={5} />
+					
 						<Text>{text}</Text>
 					</Flex>
 				))}
