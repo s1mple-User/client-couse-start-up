@@ -1,1 +1,1 @@
-export const loadImage = (imageURL?: string) => `${process.env.NEXT_PUBLIC_API_SERVICE}${imageURL}`;
+export const loadImage = (imageURL?: string) => `https://server-course-production-bfe4.up.railway.app/${imageURL}`;

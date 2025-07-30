@@ -66,12 +66,10 @@ const DashboardPageComponent = () => {
 						<TabList mb='1em' h={'300'}>
 							<Tab>Account</Tab>
 							<Tab>Settings</Tab>
-							<Tab>Transactions</Tab>
 							<Tab>My Courses</Tab>
-							<Tab>Saved Cards</Tab>
 							<Tab>Danger Zone</Tab>
 						</TabList>
-						<TabPanels px={5}>
+						<TabPanels px={10}>
 							{isLoading ? (
 								<Center>
 									<Spinner />
@@ -81,9 +79,6 @@ const DashboardPageComponent = () => {
 									{tabIndex === 0 && user && <Account />}
 									{tabIndex === 1 && <Settings />}
 									{tabIndex === 2 && (
-										<Transactions transactions={transactions} />
-									)}
-									{tabIndex === 3 && (
 										<MyCourses myCourses={myCourses} />
 									)}
 								</>
